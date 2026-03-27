@@ -1,4 +1,12 @@
+# JSON 工具箱 - 网站爬虫规则
+# 允许所有搜索引擎爬取
+
 User-agent: *
 Allow: /
 
-Sitemap: https://json-tools.example.com/sitemap.xml
+# Sitemap 位置
+Sitemap: https://moyu-xin.github.io/json-tools/sitemap.xml
+
+# 禁止爬取不存在的目录（如果有）
+# Disallow: /admin/
+# Disallow: /private/
