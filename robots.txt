@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://json-tools.example.com/sitemap.xml
